@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
         مرحبًا بكم في موقع العقارات الخاص بنا
       </h1>
       <p>هذا هو المحتوى الخاص بصفحة العقارات الخاصة بك.</p>
+      <Button>اضغط هنا </Button>
     </div>
   );
 }
